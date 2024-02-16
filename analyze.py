@@ -38,4 +38,4 @@ with open('clean_data.csv', 'r') as csvfile:
     # If there are remaining rows, print the average of the remaining years
     if row_count > 0:
         average_of_remaining_rows = running_total / row_count
-        print(f"Average of remaining years ({current_year}-2023):", average_of_remaining_rows)
+        print(f"Average of {current_year}-2023:", average_of_remaining_rows)
